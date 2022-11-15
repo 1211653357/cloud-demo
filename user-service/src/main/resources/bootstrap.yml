@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: userservice
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      server-addr: 150.158.49.138:8848 #nacos服务地址
+      config:
+        file-extension: yaml #文件后缀名
